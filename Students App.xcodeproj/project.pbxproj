@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		913B2282282EA29C004A031B /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B2281282EA29C004A031B /* AddStudentViewController.swift */; };
+		913B2284282EA935004A031B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B2283282EA935004A031B /* Model.swift */; };
+		9153EE9428303AD500CE47E0 /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153EE9328303AD500CE47E0 /* StudentsTableViewController.swift */; };
+		9153EE9828303CC800CE47E0 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153EE9728303CC800CE47E0 /* StudentTableViewCell.swift */; };
+		9153EE9A283046BE00CE47E0 /* StudentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153EE99283046BE00CE47E0 /* StudentDetailsViewController.swift */; };
 		91B42724282BCE1E002C6741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B42723282BCE1E002C6741 /* AppDelegate.swift */; };
 		91B42726282BCE1E002C6741 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B42725282BCE1E002C6741 /* SceneDelegate.swift */; };
 		91B42728282BCE1E002C6741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B42727282BCE1E002C6741 /* ViewController.swift */; };
 		91B4272B282BCE1E002C6741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B42729282BCE1E002C6741 /* Main.storyboard */; };
 		91B4272D282BCE23002C6741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B4272C282BCE23002C6741 /* Assets.xcassets */; };
 		91B42730282BCE23002C6741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B4272E282BCE23002C6741 /* LaunchScreen.storyboard */; };
+		91B4273D282BEFC1002C6741 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4273C282BEFC1002C6741 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		913B2281282EA29C004A031B /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		913B2283282EA935004A031B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9153EE9328303AD500CE47E0 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
+		9153EE9728303CC800CE47E0 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		9153EE99283046BE00CE47E0 /* StudentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsViewController.swift; sourceTree = "<group>"; };
 		91B42720282BCE1E002C6741 /* Students App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Students App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B42723282BCE1E002C6741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91B42725282BCE1E002C6741 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,7 @@
 		91B4272C282BCE23002C6741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91B4272F282BCE23002C6741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91B42731282BCE23002C6741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B4273C282BEFC1002C6741 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,29 @@
 		91B42722282BCE1E002C6741 /* Students App */ = {
 			isa = PBXGroup;
 			children = (
+				91B4273B282BEFB0002C6741 /* Model */,
 				91B42723282BCE1E002C6741 /* AppDelegate.swift */,
 				91B42725282BCE1E002C6741 /* SceneDelegate.swift */,
 				91B42727282BCE1E002C6741 /* ViewController.swift */,
+				913B2281282EA29C004A031B /* AddStudentViewController.swift */,
+				9153EE9328303AD500CE47E0 /* StudentsTableViewController.swift */,
+				9153EE9728303CC800CE47E0 /* StudentTableViewCell.swift */,
+				9153EE99283046BE00CE47E0 /* StudentDetailsViewController.swift */,
 				91B42729282BCE1E002C6741 /* Main.storyboard */,
 				91B4272C282BCE23002C6741 /* Assets.xcassets */,
 				91B4272E282BCE23002C6741 /* LaunchScreen.storyboard */,
 				91B42731282BCE23002C6741 /* Info.plist */,
 			);
 			path = "Students App";
+			sourceTree = "<group>";
+		};
+		91B4273B282BEFB0002C6741 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91B4273C282BEFC1002C6741 /* Student.swift */,
+				913B2283282EA935004A031B /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				91B42728282BCE1E002C6741 /* ViewController.swift in Sources */,
+				913B2282282EA29C004A031B /* AddStudentViewController.swift in Sources */,
+				9153EE9A283046BE00CE47E0 /* StudentDetailsViewController.swift in Sources */,
 				91B42724282BCE1E002C6741 /* AppDelegate.swift in Sources */,
+				913B2284282EA935004A031B /* Model.swift in Sources */,
+				91B4273D282BEFC1002C6741 /* Student.swift in Sources */,
+				9153EE9428303AD500CE47E0 /* StudentsTableViewController.swift in Sources */,
 				91B42726282BCE1E002C6741 /* SceneDelegate.swift in Sources */,
+				9153EE9828303CC800CE47E0 /* StudentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
